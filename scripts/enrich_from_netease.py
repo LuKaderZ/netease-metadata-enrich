@@ -3,7 +3,7 @@
 从网易云音乐元数据源匹配并写入 album/track/date 标签。
 
 支持两种元数据源：
-  1. BACKUPS 歌单（推荐）：python enrich_from_netease.py <dir> --playlist-id <歌单ID>
+  1. 自有歌单（推荐）：python enrich_from_netease.py <dir> --playlist-id <歌单ID>
   2. API 搜索（补充）：python enrich_from_netease.py <dir> --search
 
 需要：pip install mutagen NetEaseMusicApi requests
